@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    background-color: rgb(214, 233, 227);
+    font-family: 'Poppins';
+}
+
+.landing {
+    background-color: rgb(83, 233, 183);
+}
+
+header {
+    display: flex;
+
+}
+
+#header1 {
+    flex: 3;
+    padding-left: 30px;
+}
+
+.navi0 {
+    display: flex;
+    padding: 2em;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-style: bold;
+}
+
+nav a:hover {
+    color: rgb(28, 79, 110);
+}
+
+.subject {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 5em;
+    border-radius: 5em;
+    padding: 1em;
+    width: fit-content;
+}
+
+#header2 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.sample1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.sample2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.sample3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.sample4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.sample5 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#poet1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#poet2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#poet3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#poet4 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#poet5 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#poet1:hover {
+    color: blue;
+}
+
+#poet2:hover {
+    color: blue;
+}
+
+#poet3:hover {
+    color: blue;
+}
+
+#poet4:hover {
+    color: blue;
+}
+
+#poet5:hover {
+    transition: 1s;
+    color: blue;
+}
+
+#title {
+    text-align: center;
+}
+
+#para1 {
+    text-align: center;
+
+}
+
+#para2 {
+    text-align: center;
+
+}
+
+
+#para4 {
+    text-align: center;
+
+}
+
+
+#para3 {
+    text-align: center;
+}
+
+#poem {
+    text-align: center;
+}
+
+.about1 {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 5em;
+    border-radius: 5em;
+    padding: 3rem;
+    max-width: 80%;
+}
+.container1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#auth {
+    text-align: center;
+    padding: 1em;
+    margin-left: 10em;
+    max-width: 80%;
+}
+
+.writer {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 5em;
+    border-radius: 5em;
+    padding: 2rem;
+    max-width: 80%;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#pics {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#desc1 {
+    text-align: center;
+}
+
+.data h4{
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flexer{
+    display: flex;
+    gap: 10px ;
+}
+.aboutcontainer{
+    display:flex;
+   
+    
+   
+}
+.bigimage{
+    display: block;
+    width: 50%;
+    text-align: left;   
+    padding:10rem;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+.context{
+
+    justify-content: center;
+    align-items: center;
+  
+    padding:10rem;
+}
+.aboutsubject{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 5em;
+    padding: 2rem;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+.button1{
+    padding: 10px;
+    align-items: center;
+    background-color: blue;
+    margin-left: 8rem;
+    border-radius: 50px;
+    margin-top: 2px;
+    border-color: blue;
+    color: rgb(236, 239, 238);
+
+}
+.button1:hover{
+    background-color: rgb(92, 92, 232);
+    cursor: pointer;
+    transition: 800ms;
+}
+.poetsubject{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 5em;
+    border-radius: 5em;
+    padding: 2rem;
+    max-width: 80%;
+    margin-bottom: 20px;
+    margin-left: 5rem;
+}
+.poetsubject2{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 5em;
+    border-radius: 5em;
+    padding: 2rem;
+    max-width: 80%;
+    margin-bottom: 20px;
+    margin-left: 5rem;
+}
